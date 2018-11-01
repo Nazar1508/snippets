@@ -1,0 +1,76 @@
+{
+	"svg sprite": {
+		"prefix": "svg sprite",
+		"body": [
+			"<svg class=\"$1\" width=\"$2\" height=\"$3\">",
+			"  <use xlink:href=\"#$4\"></use>",
+			"</svg>"
+		]
+	},
+
+	"include sprite": {
+		"prefix": "include",
+		"body": [
+			"<div style=\"display: none;\">",
+			"  <include src=\"build/img/sprite.svg\"></include>",
+			"</div>"
+		]
+	},
+
+	"picture": {
+		"prefix": "picture",
+		"body": [
+			"<picture>",
+			"  <source media=\"(max-width: $5px)\" srcset=\"img/$6 1x, img/$7 2x\">",
+			"  <img class=\"$1\" src=\"img/$2\" srcset=\"img/$3 2x\" alt=\"$4\">",
+			"</picture>"
+		]
+	},
+
+	"picture webp": {
+		"prefix": "webp",
+		"body": [
+			"<source type=\"image/webp\" media=\"(min-width: $1px)\" srcset=\"img/webp/$2 1x, img/webp/$3 2x\">"
+		]
+	},
+
+	"source": {
+		"prefix": "source",
+		"body": [
+			"  <source media=\"(max-width: $5px)\" srcset=\"img/$6 1x, img/$7 2x\">"
+		]
+	},
+
+	"main-nav": {
+		"prefix": "main-nav",
+		"body": [
+			"<nav class=\"main-nav\">",
+      "  <ul class=\"site-lis\">",
+      "    <li class=\"site-list__item\">",
+      "      <a class=\"site-list__link\">$1</a>",
+      "    </li>",
+      "  </ul>",
+      "</nav>"
+		]
+	},
+
+	"list with icon-links": {
+		"prefix": "icon-links-list",
+		"body": [
+			"<ul class=\"$1\">",
+      "  <li class=\"$2\">",
+      "    <a class=\"$3\" href=\"$4\">",
+      "    <span class=\"$5\"></span>",
+      "    </a>",
+      "  </li>",
+			"</ul>"
+		]
+	},
+
+	"favicon": {
+		"prefix": "favicon",
+		"body": [
+			"<link rel=\"shortcut icon\" href=\"img/icon/favicon.ico\">"
+		]
+	}
+}
