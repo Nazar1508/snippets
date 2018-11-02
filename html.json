@@ -45,12 +45,12 @@
 		"prefix": "main-nav",
 		"body": [
 			"<nav class=\"main-nav\">",
-      "  <ul class=\"site-lis\">",
-      "    <li class=\"site-list__item\">",
-      "      <a class=\"site-list__link\">$1</a>",
-      "    </li>",
-      "  </ul>",
-      "</nav>"
+			"  <ul class=\"site-lis\">",
+			"    <li class=\"site-list__item\">",
+			"      <a class=\"site-list__link\">$1</a>",
+			"    </li>",
+			"  </ul>",
+			"</nav>"
 		]
 	},
 
@@ -58,11 +58,11 @@
 		"prefix": "icon-links-list",
 		"body": [
 			"<ul class=\"$1\">",
-      "  <li class=\"$2\">",
-      "    <a class=\"$3\" href=\"$4\">",
-      "    <span class=\"$5\"></span>",
-      "    </a>",
-      "  </li>",
+			"  <li class=\"$2\">",
+			"    <a class=\"$3\" href=\"$4\">",
+			"    <span class=\"$5\"></span>",
+			"    </a>",
+			"  </li>",
 			"</ul>"
 		]
 	},
