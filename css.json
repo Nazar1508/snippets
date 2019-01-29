@@ -15,5 +15,19 @@
 			"  $2",
 			"}"
 		]
+	},
+
+	"font": {
+  "prefix": "font",
+  "body": [
+    "@font-face {",
+    "  font-weight: normal;",
+    "  font-family: \"Open sans\";",
+    "  font-style: normal;",
+    "  font-display: swap;",
+    "  src: url(\"../fonts/opensans.woff2\") format(\"woff2\"), url(\"../fonts/opensans.woff\") format(\"woff\");",
+    "}"
+  ],
+  "description": "font"
 	}
 }
