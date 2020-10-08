@@ -17,17 +17,79 @@
 		]
 	},
 
+	"font-face": {
+		"prefix": "font-face",
+		"body": [
+			"@font-face {",
+			"  font-weight: normal;",
+			"  font-family: \"Open sans\";",
+			"  font-style: normal;",
+			"  font-display: swap;",
+			"  src: url(\"../fonts/opensans.woff2\") format(\"woff2\"), url(\"../fonts/opensans.woff\") format(\"woff\");",
+			"}"
+		],
+		"description": "font"
+	},
+
 	"font": {
-  "prefix": "font",
-  "body": [
-    "@font-face {",
-    "  font-weight: normal;",
-    "  font-family: \"Open sans\";",
-    "  font-style: normal;",
-    "  font-display: swap;",
-    "  src: url(\"../fonts/opensans.woff2\") format(\"woff2\"), url(\"../fonts/opensans.woff\") format(\"woff\");",
-    "}"
-  ],
-  "description": "font"
+		"prefix": "font",
+		"body": [
+			"font: 400 11px/15px \"Open Sans\", sans-serif;"
+		],
+		"description": "font"
+	},
+
+	"text-align: center": {
+		"prefix": "tc",
+		"body": [
+			"text-align: center;"
+		],
+		"description": "text-align: center"
+	},
+
+	"list reset": {
+		"prefix": "lr",
+		"body": [
+			"margin: 0;",
+			"padding: 0;",
+			"list-style: none;"
+		],
+		"description": "list reset"
+	},
+
+	"button reset": {
+		"prefix": "br",
+		"body": [
+			"padding: 0;",
+			"border: none;",
+			"background: transparent;"
+		],
+		"description": "button reset"
+	},
+
+	"background": {
+		"prefix": "ba",
+		"body": [
+			"background: center / cover no-repeat url(\"images/star.png\");"
+		],
+		"description": "background"
+	},
+
+	"flex center ": {
+		"prefix": "fc",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;"
+		],
+		"description": "flex center "
+	},
+
+	"position absolute": {
+		"prefix": "pa",
+		"body": [
+			"position: absolute;"
+		],
+		"description": "Position absolute"
 	}
 }

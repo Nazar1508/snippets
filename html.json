@@ -8,15 +8,6 @@
 		]
 	},
 
-	"include sprite": {
-		"prefix": "include",
-		"body": [
-			"<div style=\"display: none;\">",
-			"  <include src=\"build/img/sprite.svg\"></include>",
-			"</div>"
-		]
-	},
-
 	"picture": {
 		"prefix": "picture",
 		"body": [
@@ -38,32 +29,6 @@
 		"prefix": "source",
 		"body": [
 			"  <source media=\"(max-width: $5px)\" srcset=\"img/$6 1x, img/$7 2x\">"
-		]
-	},
-
-	"main-nav": {
-		"prefix": "main-nav",
-		"body": [
-			"<nav class=\"main-nav\">",
-			"  <ul class=\"site-list\">",
-			"    <li class=\"site-list__item\">",
-			"      <a class=\"site-list__link\" href=\"\">$1</a>",
-			"    </li>",
-			"  </ul>",
-			"</nav>"
-		]
-	},
-
-	"list with icon-links": {
-		"prefix": "icon-links-list",
-		"body": [
-			"<ul class=\"$1\">",
-			"  <li class=\"$2\">",
-			"    <a class=\"$3\" href=\"$4\">",
-			"    <span class=\"$5\"></span>",
-			"    </a>",
-			"  </li>",
-			"</ul>"
 		]
 	},
 
