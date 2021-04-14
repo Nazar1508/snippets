@@ -11,7 +11,7 @@
 	"media queries": {
 		"prefix": "media-queries",
 		"body": [
-			"@media (max-width: $1px) {",
+			"@media (min-width: $1px) {",
 			"  $2",
 			"}"
 		]
